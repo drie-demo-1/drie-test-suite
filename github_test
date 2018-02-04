@@ -1,10 +1,15 @@
+#list branch 
+if [ `git branch --list test `]
+then 
+  git branch -d test
+fi
 #set repo 
 git remote set-url origin https://github.com/ahmedshukralla94/drie-test-suite.git
 #create a branch 
-git branch testsss
+git branch test
 
 #push changes
-git push -u origin testsss
+git push -u origin test
 #list branch
 git branch -a
 # create file
