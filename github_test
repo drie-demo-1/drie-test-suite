@@ -1,0 +1,18 @@
+#set repo 
+git remote set-url origin https://github.com/ahmedshukralla94/drie-test-suite.git
+#create a branch 
+git branch testsss
+
+#push changes
+git push -u origin testsss
+#list branch
+git branch -a
+# create file
+
+git init
+git add test.py
+git commit -m "my first commit"
+#push changes 
+git push -u origin master
+
+
